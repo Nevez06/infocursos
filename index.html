@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link href="./css/main.index.css" rel="stylesheet" />
+  <title>Plataforma de Cursos de TI</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <h1>InfoCursos</h1>
+      </div>
+      <nav class="nav-menu" id="navMenu">
+        <a href="./cursos.html" class="nav-link">Cursos</a>
+        <a href="./noticias.html" class="nav-link">Notícias</a>
+        <a href="./novidades.html" class="nav-link">Novidades</a>
+        <a href="./contato.html" class="nav-link">Contato</a>
+        <a href="./login.html" class="login-btn">Login</a>
+      </nav>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+    </header>
+
+    <main class="main-content">
+      <section class="welcome-section">
+        <div class="welcome-text">
+          <h2>Olá, <span class="username">Usuário</span>!</h2>
+          <p class="subtitle">Seja bem-vindo à plataforma de cursos InfoCursos</p>
+          <p class="description">
+            Aprenda as tecnologias mais demandadas do mercado com nossos cursos especializados.
+          </p>
+          <a href="./cursos.html" class="cta-btn">Explorar Cursos</a>
+        </div>
+        <div class="welcome-image">
+          <img
+            src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="Aprendizado de TI"
+          />
+        </div>
+      </section>
+
+      <section class="features-section">
+        <div class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3>Cursos Completo</h3>
+          <p>Do básico ao avançado em diversas tecnologias.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👨‍🏫</div>
+          <h3>Instrutores Especialistas</h3>
+          <p>Aprenda com profissionais do mercado.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Acesso em Qualquer Lugar</h3>
+          <p>Estude no seu ritmo, de qualquer dispositivo.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 InfoCursos - Todos os direitos reservados</p>
+    </footer>
+  </div>
+
+  <!-- Script para o menu mobile -->
+  <script>
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const navMenu = document.getElementById('navMenu');
+
+    mobileBtn.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>
