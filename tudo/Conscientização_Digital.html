@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./css/main.noticias.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Eventos de Conscientização | InfoCursos</title>
+    <style>
+        .news-detail {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .detail-header {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .detail-title {
+            font-size: 32px;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+        
+        .detail-meta {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        
+        .detail-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+            margin-bottom: 30px;
+            box-shadow: var(--shadow);
+        }
+        
+        .detail-content {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+        
+        .detail-content p {
+            margin-bottom: 20px;
+        }
+        
+        .detail-content h3 {
+            color: var(--secondary-color);
+            margin: 30px 0 15px;
+        }
+        
+        .event-highlight {
+            background-color: rgba(189, 206, 243, 0.3);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        }
+        
+        .detail-footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        
+        .related-news {
+            margin-top: 60px;
+        }
+        
+        .related-title {
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: var(--secondary-color);
+        }
+        
+        @media (max-width: 768px) {
+            .detail-title {
+                font-size: 28px;
+            }
+            
+            .detail-image {
+                height: 250px;
+            }
+            
+            .detail-content {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="news-app">
+        <!-- Header Section -->
+        <header class="news-header">
+            <div class="header-container">
+                <a href="./noticias.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Voltar</span>
+                </a>
+                <div class="header-title">
+                    <i class="fas fa-newspaper"></i>
+                    <h1>Detalhes da Notícia</h1>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="news-detail">
+            <div class="detail-header">
+                <h2 class="detail-title">Dia da Internet Segura 2025: Conscientização Digital</h2>
+                <div class="detail-meta">
+                    <span><i class="far fa-calendar-alt"></i> 08/02/2025</span>
+                    <span><i class="fas fa-exclamation-triangle"></i> Alerta</span>
+                    <span><i class="fas fa-user-tie"></i> Por Equipe InfoCursos</span>
+                </div>
+                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Evento de conscientização" class="detail-image">
+            </div>
+
+            <div class="detail-content">
+                <h3>O Evento Global</h3>
+                <p>O Dia da Internet Segura (Safer Internet Day) é uma iniciativa global que ocorre anualmente em fevereiro, reunindo mais de 200 países para promover o uso seguro e positivo da tecnologia digital, especialmente entre crianças e jovens.</p>
+                
+                <div class="event-highlight">
+                    <h3>Destaques do Evento 2025</h3>
+                    <p>Este ano, o tema central foi "Juntos por uma Internet Melhor", com foco especial em:</p>
+                    <ul>
+                        <li>Combate ao cyberbullying</li>
+                        <li>Proteção de dados pessoais</li>
+                        <li>Identificação de fake news</li>
+                        <li>Segurança em redes sociais</li>
+                    </ul>
+                </div>
+                
+                <h3>Estatísticas Reveladoras</h3>
+                <p>Durante o evento, a Central Nacional de Crimes Cibernéticos divulgou dados alarmantes:</p>
+                <ul>
+                    <li><strong>+320%</strong> em golpes financeiros digitais nos últimos 2 anos</li>
+                    <li><strong>45%</strong> dos brasileiros já sofreram algum tipo de fraude online</li>
+                    <li><strong>1 em cada 3</strong> jovens já compartilhou dados pessoais com estranhos</li>
+                </ul>
+                
+                <h3>Atividades Realizadas</h3>
+                <p>No Brasil, o evento contou com diversas atividades:</p>
+                <ol>
+                    <li><strong>Workshops</strong> em escolas públicas e privadas</li>
+                    <li><strong>Palestras</strong> com especialistas em segurança digital</li>
+                    <li><strong>Simulações</strong> de golpes para conscientização</li>
+                    <li><strong>Material educativo</strong> distribuído gratuitamente</li>
+                </ol>
+                
+                <h3>Como se Proteger</h3>
+                <p>Os especialistas presentes recomendaram medidas essenciais:</p>
+                <ul>
+                    <li>Usar senhas fortes e autenticação em dois fatores</li>
+                    <li>Atualizar regularmente sistemas e aplicativos</li>
+                    <li>Desconfiar de mensagens inesperadas pedindo dados</li>
+                    <li>Verificar fontes antes de compartilhar informações</li>
+                    <li>Configurar privacidade em redes sociais</li>
+                </ul>
+                
+                <h3>Próximos Passos</h3>
+                <p>Como resultado do evento, foi lançado o programa "Internet Segura nas Escolas", que levará treinamentos contínuos sobre segurança digital para instituições de ensino em todo o país.</p>
+            </div>
+
+            <div class="detail-footer">
+                <p><strong>Fonte:</strong> Central Nacional de Crimes Cibernéticos - Relatório Anual 2025</p>
+                
+                <div class="related-news">
+                    <h3 class="related-title">Notícias Relacionadas</h3>
+                    <div class="news-grid">
+                        <article class="news-card critical">
+                            <div class="news-image">
+                                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Ataque cibernético">
+                            </div>
+                            <div class="news-content">
+                                <div class="news-meta">
+                                    <span class="news-date"><i class="far fa-calendar-alt"></i> Fevereiro 2024</span>
+                                    <span class="news-category"><i class="fas fa-shield-alt"></i> Crítico</span>
+                                </div>
+                                <h3 class="news-title">Ataques cibernéticos no TJ-RS</h3>
+                                <p class="news-excerpt">O sistema do Tribunal de Justiça do Rio Grande do Sul sofreu um ataque de ransomware que paralisou completamente seus serviços digitais.</p>
+                                <a href="./ataque.html" class="news-link">Saiba mais <i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="news-footer">
+            <div class="footer-content">
+                <p>© 2025 InfoCursos - Todos os direitos reservados</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
